@@ -1,0 +1,319 @@
+*{box-sizing:border-box;}@font-face{format("truetype");}
+body{
+    background: #121214 no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: consolas;
+
+}
+
+
+div#wrapper {
+    width: 100%;
+    max-width: 1700px;
+    margin: auto;
+}
+
+
+span#title {
+    color: lime;
+    
+    text-shadow: 0 0 10px #000;
+}
+
+span#howitswork {
+    color: lime;
+    text-shadow: 0 0 10px #fff;
+}
+
+span#idcoder {
+    color: #FFAD00;
+    text-shadow: 0 0 5px #000;
+}
+
+span#email-coder {
+    color: #FFAD00;
+    text-shadow: 0 0 5px #000;
+}
+
+div#form-container {
+    margin-top: 30px;
+    border-top: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 0px solid rgba(255,255,255,0.1);
+    padding: 10px 0 20px 0;
+    min-height: 400px;
+}
+
+div#form-centered {
+    width: 100%;
+    max-width: 750px;
+    height: 380px;
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    
+    _background: rgba(8, 179, 163, 0.46);
+    _box-shadow: 0 0 11px 0px #06AC9C;
+}
+
+
+textarea#apilist {
+    background: #121111;
+    padding: 5px;
+    color: red;
+    box-shadow: 0 0 1px 1px #6f6363;
+    border: 0;
+    margin-bottom: 20px;
+    max-width: 505px;
+    height: 40px;
+    width: 100%;
+    transition: all 1s ease-in;
+    -webkit-box-shadow: 0 0 1px 1px lime;
+    -moz-box-shadow: 0 0 1px lime;
+}
+
+
+textarea#apilist:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #5e805e;
+}
+
+
+textarea#empass {
+    background: #121111;
+    padding: 5px;
+    color: red;
+    box-shadow: 0 0 1px 1px #5e805e;
+    border: 0;
+    margin-bottom: 20px;
+    max-width: 700px;
+    height: 240px;
+    width: 100%;
+    transition: all 1s ease-in;
+    -webkit-box-shadow: 0 0 1px 1px #6f6363;
+    -moz-box-shadow: 0 0 1px lime;
+}
+textarea#empass:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #5e805e;
+}
+
+#start-button {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 200px;
+    width: 700px;
+    color: #fff;
+    background-color: #0ab39a;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    text-shadow: 0 1px 5px #000;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    opacity: 0.9;
+}
+
+#start-button:active {
+    opacity: 0.6;
+}
+
+#stop-button {
+    background-color: white;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 200px;
+    width: 700px;
+    color: #fff;
+    background-color: #d74e4e;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    text-shadow: 0 1px 5px #000;
+    cursor: pointer;
+}
+
+#stop-button:hover {
+    opacity: 0.9;
+}
+
+#stop-button:active {
+    opacity: 0.6;
+}
+
+
+.results {
+    font-size: 15px;
+    text-shadow: 0 0 10px #000;
+}
+
+.results span {
+    
+}
+
+span.live_reslt {
+    color: lime;
+}
+
+
+
+span.unk_reslt {
+    color: darkorange;
+}
+
+span.inv_reslt {
+    color: red;
+}
+
+
+
+.copier {
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.copier:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+div#result-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    min-height: 300px;
+    border: 0px solid #fff;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    transition: all 1s ease;
+}
+
+div#result-container fieldset {
+    min-height: 25px;
+    max-height: 220px;
+}
+
+div#result-container #result-live fieldset,
+div#result-container #result-invalid fieldset,
+div#result-container #result-nocard fieldset
+{
+    border: none;
+    overflow-y: auto;
+}
+
+
+div#result-live {
+    background: #121111;
+    box-shadow: 0 0 11px 0px #000;
+    position: relative;
+    border-top: 2px solid #161616;
+    border-left: 2px solid #161616;
+    border-bottom: 2px solid #161616;
+    border-right: 2px solid #161616;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 1px lime;
+    -moz-box-shadow: 0 0 1px lime;
+    width: 400px;
+    height: 260px;
+    margin: 10px;
+    padding: 20px 0px 0px 7px;
+}
+span#result-live-note {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: rgb(32, 32, 32);
+    color: lime;
+    padding: 4px;
+    border-top: 1px solid rgb(103, 103, 103);
+    border-left: 1px solid rgb(103, 103, 103);
+    font-size: 12px;
+}
+#live_res {
+    margin-bottom: 15px;
+}
+
+div#result-invalid {
+    background: #121111;
+    box-shadow: 0 0 11px 0px #000;
+    position: relative;
+    border: 2px solid #161616;
+    -webkit-box-shadow: 0 0 1px red;
+    -moz-box-shadow: 0 0 1px red;
+    width: 400px;
+    height: 260px;
+    margin: 10px;
+    padding: 20px 0px 0px 7px;
+}
+span#result-invalid-note {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: rgb(32, 32, 32);
+    color: red;
+    padding: 4px;
+    border-top: 1px solid rgb(103, 103, 103);
+    border-left: 1px solid rgb(103, 103, 103);
+    font-size: 12px;
+}
+
+
+
+div#result-nocard {
+    background: #121111;
+    box-shadow: 0 0 11px 0px #000;
+    position: relative;
+    border: 2px solid #161616;
+    -webkit-box-shadow: 0 0 1px darkorange;
+    -moz-box-shadow: 0 0 1px darkorange;
+    width: 400px;
+    height: 260px;
+    margin: 10px;
+    padding: 20px 0px 0px 7px;
+}
+span#result-nocard-note {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: rgb(32, 32, 32);
+    color: darkorange;
+    padding: 4px;
+    border-top: 1px solid rgb(103, 103, 103);
+    border-left: 1px solid rgb(103, 103, 103);
+    font-size: 12px;
+}

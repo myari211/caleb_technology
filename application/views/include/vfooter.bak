@@ -1,0 +1,84 @@
+<footer class="do-footer">
+        <div class="container">
+            <div class="row">
+                <!-- FOOTER TOP -->
+                <div class="do-footer-top">
+                    <!-- About Widget -->
+                    <div class="do-footer-widget do-footer-about-widget col-md-4 col-sm-6 col-xs-12">
+                        
+
+                        <div class="do-company-address">
+                            <ul>
+                                <li>
+                                    <i class=""><img src="<?php echo IMAGES_BASE_URL;?>/address.png" width="25px" height="25px" alt=""></i>
+                                    <div itemscope itemtype="http://schema.org/LocalBusiness">
+                                        <a itemprop="url" href="www.balkat.com" target="_parent"><div itemprop="name"> <img src="<?php echo IMAGES_BASE_URL;?>/balkat-footer.png" width="165px" height="35px" alt=""></div>
+                                    </a>
+                                    <div itemprop="description">Digital Agency, Website Designer, Creative & Corporate Branding, Mobile Apps Developer | Agensi Digital, Jasa Pembuatan Website | Jakarta, Indonesia</div>
+                                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                    <span itemprop="streetAddress">Sukarjo Wiryopranoto 55A</span><br>
+                                    <span itemprop="addressLocality">Jakarta</span><br>
+                                    <span itemprop="addressRegion">DKI Jakarta</span><br>
+                                    <span itemprop="postalCode">11160</span><br>
+                                    <span itemprop="addressCountry">Indonesia</span><br>
+                                    </div>
+
+                                    </div> 
+                                </li>
+                                <li>
+                                    <i class=""><img src="<?php echo IMAGES_BASE_URL;?>/phone.png" width="25px" height="25px" alt=""></i>
+                                    [ +62 ] 216296302
+                                </li>
+                                <li>
+                                    <i class=""><img src="<?php echo IMAGES_BASE_URL;?>/email.png" width="25px" height="25px" alt=""></i>
+                                    hello@balkat.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- About Widget End -->
+
+                    <!-- Link Widget -->
+                    <div class="do-footer-widget do-footer-link-widget col-md-4 col-sm-6 col-xs-12">
+                        <h3 class="do-footer-widget-header">MAIN LINKS</h3>
+                        <ul>
+                            <li><a href="<?php echo BASE_URL ;?>/about">About</a></li>
+                            <li><a href="<?php echo BASE_URL ;?>/works">Works</a></li>
+                             <li><a href="#">Blog</a></li>
+                            <li><a href="<?php echo BASE_URL ;?>/location">Hello</a></li>
+                           
+                        </ul>
+                    </div>
+                    <!-- Link Widget End -->
+
+                    <!-- About Link Widget -->
+                    <div class="do-footer-widget do-about-link-widget col-md-4 col-sm-6 col-xs-12">
+                        <h3 class="do-footer-widget-header">ABOUT OFFICE</h3>
+                        <ul>
+                           <?php foreach($pages as $page) {?>
+                            <li><a href="<?php echo BASE_URL.'/'.$page['web_alias'] ;?>"><?php echo $page['pages_title'] ;?></a></li>                            
+                            <?php }?>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                    <!-- About Link Widget End -->
+
+                    <!-- Flickr Widget
+                    <div class="do-footer-widget do-flickr-widget col-md-3 col-sm-6 col-xs-12">
+                        <h3 class="do-footer-widget-header">flickr photo</h3>
+                        <div id="flickr-gallery"></div>
+                    </div>
+					-->
+                    <!-- Flickr Widget End -->
+                </div>
+                <!-- FOOTER TOP END -->
+
+                <!-- FOOTER BOTTOM -->
+                <div class="do-footer-bottom">
+                    <a href="#" class="do-footer-author-name">Copyright @ PT BALKAT KOMUNIKA INDONESIA 2016 ALL RIGHT RESERVED</a>
+                </div>
+                <!-- FOOTER BOTTOM END -->
+            </div>
+        </div>
+
+    </footer>
