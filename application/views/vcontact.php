@@ -69,7 +69,6 @@
                  <!-- Nav tabs -->
                  <ul class="nav nav-pills">
                      <li id="li1" class="active"><a href="#" id="tab-1">HEAD OFFICE</a></li>
-                     <li id="li2"><a href="#" id="tab-2">WORKSHOP</a></li>
                  </ul>
 
                  <!-- Tab panes -->
@@ -77,37 +76,16 @@
                    <div class="tab-pane active" id="headoffice">
                       <p class="contact-tab-header">HEAD OFFICE</p>
                       <p class="contact-tab-1ddress">
-                        Komplek Surya Permata Indah
+                        Kawasan, Jl. Siliwangi KM 7, Jl. Pesona Metropolitan Ruko Gardenia
                       </p>
                       <p class="contact-tab-1ddress">
-                       Blok D1 No.26 RT.005/003
+                       RF No.10, RT.005/RW.002
                       </p>
                       <p class="contact-tab-1ddress">
-                        Kelurahan Sepanjang Jaya,
+                        Bojong Rawa Lumbu,
                       </p>
 					 <p class="contact-tab-1ddress">
-                       Kecamatan Rawalumbu, Kota Bekasi 17114
-                      </p>
-                   </div>
-                     <div role="tabpanel" class="tab-pane" id="work">
-                      <p class="contact-tab-header">OFFICE & WORKSHOP</p>
-                      <p class="contact-tab-1ddress">
-                        SINPASA COMMERCIAL Blok B 01
-                      </p>
-                      <p class="contact-tab-1ddress">
-                        Summarecon Bekasi
-                      </p>
-                      <p class="contact-tab-1ddress">
-                       Bekasi Kota, Jawa Barat  Indonesia 17143
-                      </p>
-                       <p class="contact-tab-1ddress">
-                       Telp &nbsp;&nbsp;&nbsp;&nbsp;: +62 21 2928 5708   
-                      </p>
-                      <p class="contact-tab-1ddress">
-                       Mobile : +62 813 1287 8823   
-                      </p>
-                      <p class="contact-tab-1ddress">
-                          Fax &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: +62 813 1287 8823
+                       Kecamatan Rawalumbu, Kota Bekasi 17116
                       </p>
                    </div>
                  </div>
